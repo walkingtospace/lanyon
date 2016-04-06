@@ -1,13 +1,50 @@
+# https://help.github.com/articles/using-jekyll-with-pages/
+# Github Pages override these options.
+safe: true
+lsi: false
+
+# Dependencies
+markdown:     kramdown
+highlighter:  rouge
+
 # Permalinks
 #
-# Use of `relative_permalinks` ensures post links from the index work properly.
 permalink:           pretty
 
 # Setup
-title:               Honam's personal blog
-tagline:             My blog
-description:         Personal stuffs
-url:                 http://walkingtospace.github.io/
+title:               Personal archive
+tagline:             Honam's blog (방호남의 블로그)
+description:         방호남의 블로그 | Honam's Blog
+url:                 http://walkingtospace.github.io
 baseurl:             ''
-paginate:            5
+paginate:            1
+disqus_shortname:    walkingtospace 
+disqus_url:          http://walkingtospace.github.io
+
+# About/contact
+author:
+  name:              Honam Bang
+  url:               
+  email:             walkingtospace@gmail.com
+
+github:
+  repo:              'https://github.com/walkingtospace/walkingtospace.github.io'
+
+version:             1.0.0
+
+pages_list:
+  About: ['소개', '/about']
+  Archive: ['목록', '/archive']
+  Feed: ['구독', '/feed.xml']
+
+gems:
+  - jekyll-gist
+  - jekyll-paginate
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      comments: true
 
