@@ -33,9 +33,9 @@ github:
 version:             1.0.0
 
 pages_list:
-  About: ['소개', '/about']
-  Archive: ['목록', '/archive']
-  Feed: ['구독', '/feed.xml']
+  About: ['', '/about']
+  Archive: ['', '/archive']
+  RSS Feed: ['', '/feed.xml']
 
 gems:
   - jekyll-gist
