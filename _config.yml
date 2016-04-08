@@ -34,7 +34,9 @@ version:             1.0.0
 
 pages_list:
   About: ['', '/about']
-  Archive: ['', '/archive']
+  Dir1: ['[USA] UCSD Life','']
+  Dir2: ['[USA] Seattle Life','']
+  List: ['', '/archive']
   RSS: ['', '/feed.xml']
 
 gems:
