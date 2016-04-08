@@ -1,6 +1,6 @@
 ---
 layout: page
-title: List
+title: Archive
 comments: false
 ---
 
