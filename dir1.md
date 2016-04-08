@@ -1,6 +1,6 @@
 ---
 layout: page
-title: UCSD Life
+title: [USA] UCSD Life
 comments: false
 ---
 
