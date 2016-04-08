@@ -24,20 +24,20 @@ title: Home
   {% endfor %}
 </div>
 
-<div class="pagination"> asjasftest
+<div class="pagination"> 
   {% if paginator.next_page %}
-    <a class="pagination-item older" href="{{ site.baseurl }}/page{{paginator.next_page}}">예전 글</a>
+    <a class="pagination-item older" href="{{ site.baseurl }}/page{{paginator.next_page}}">PREV</a>
   {% else %}
-    <span class="pagination-item older">예전 글</span>
+    <span class="pagination-item older">PREV</span></span>
   {% endif %}
   {% if paginator.previous_page %}
     {% if paginator.page == 2 %}
-      <a class="pagination-item newer" href="{{ site.baseurl }}/">최근 글</a>
+      <a class="pagination-item newer" href="{{ site.baseurl }}/">NEXT</a>
     {% else %}
-      <a class="pagination-item newer" href="{{ site.baseurl }}/page{{paginator.previous_page}}">최근 글</a>
+      <a class="pagination-item newer" href="{{ site.baseurl }}/page{{paginator.previous_page}}">NEXT</a>
     {% endif %}
   {% else %}
-    <span class="pagination-item newer">최근 글</span>
+    <span class="pagination-item newer">NEXT</span>
   {% endif %}
 </div>
 
