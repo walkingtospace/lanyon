@@ -1,11 +1,11 @@
 ---
 layout: page
 title: [USA] UCSD Life
-comments: true
+comments: false
 ---
 
 {% for post in site.posts %}
   {% if post.category == 'dir1' %}
-  - {{ post.date | date: "%Y년 %m월 %d일" }} &raquo; [ {{ post.title }} ]({{ post.url }})
+    - {{ post.date | date: "%Y년 %m월 %d일" }} &raquo; [ {{ post.title }} ]({{ post.url }})
   {% endif %}
 {% endfor %}
