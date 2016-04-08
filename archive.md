@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 글목록 | Archive
+title: Archive
 comments: false
 ---
 
