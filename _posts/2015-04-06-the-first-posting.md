@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 새로운 블로그로 이전
+category : SF
 ---
 
 마크다운 + static html blog가 편할 것 같아서 기존 티스토리 [블로그](http://fist0512.tistory.com)를 쓰다가 이전하였음. 개발 관련 포스팅 및 개인적으로 의미있다고 생각되는 기록(미국 유학+창업+회사 경험)들로 채워넣을 예정
