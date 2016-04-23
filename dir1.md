@@ -1,6 +1,6 @@
 ---
 layout: page
-title: UCSD Life
+title: Silicon Valley Life
 comments: false
 ---
 
