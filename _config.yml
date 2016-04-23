@@ -34,8 +34,7 @@ version:             1.0.0
 
 pages_list:
   About: ['', '/about']
-  Dir1: ['[USA] UCSD Life','/dir1']
-  Dir2: ['[USA] Seattle Life','/dir2']
+  Dir1: ['[USA] Silicon Valley Life','/dir1']
   Archive: ['', '/archive']
   RSS: ['', '/feed.xml']
 
